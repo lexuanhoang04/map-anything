@@ -1,0 +1,14 @@
+original_root: /home/Project_11_FunctionalGrasp/hoang.le/datasets/HOI4D/HOI4D_release
+root:          /home/Project_11_FunctionalGrasp/hoang.le/datasets/HOI4D/HOI4D_wai
+
+release_txt:   /home/Project_11_FunctionalGrasp/hoang.le/projects/functional_grasp/external/HOI4D-Instructions/release.txt
+
+dataset_name: hoi4d
+version: "0.1"
+overwrite: True
+
+# Limit scenes for testing (0 = all). Overridden by FG_MAX_SCENES env var.
+max_scenes: 0
+
+scene_filters:
+  - process_state_not: [conversion, finished]
